@@ -1,0 +1,18 @@
+@media only screen and (max-whidth: 600px){
+  #header{
+    display: none;
+  }
+
+}
+
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit
+    minmax(
+      150px
+      1fr
+    )
+  );
+}
